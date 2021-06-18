@@ -1,0 +1,82 @@
+{
+  "name": "TelegramOrg",
+  "description": "Akses my.telegram.org mudah",
+  "keywords": [
+    "telegram",
+    "best",
+    "app",
+    "scrapper",
+    "3"
+  ],
+  "repository": "https://github.com/ggratisan/telegramorg",
+  "success_url": "https://telegram.dog/derylproject",
+  "website": "https://github.com/ggratisan/telegramorg",
+  "env": {
+    "WEBHOOK": {
+      "description": "Jangan diganti!!",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Bot token."
+    },
+    "URL": {
+      "description": "<nama aplikasimu herokumu>",
+      "value": "https://<app>.herokuapp.com/"
+    },
+    "APP_TITLE": {
+      "description": "App title",
+      "required": false
+    },
+    "APP_SHORT_NAME": {
+      "description": "shortname (5-32 characters)",
+      "required": false
+    },
+    "APP_URL": {
+      "description": "App url",
+      "required": false
+    },
+    "APP_DESCRIPTION": {
+      "description": "App description",
+      "required": false
+    },
+    "FTEXT": {
+      "description": "Username botmu",
+      "required": false
+    },
+    "START_TEXT": {
+      "description": "Teks /start",
+      "required": false
+    },
+    "AFTER_RECVD_CODE_TEXT": {
+      "description": "Texk meminta kode",
+      "required": false
+    },
+    "BEFORE_SUCC_LOGIN": {
+      "description": "Pesan tunggu",
+      "required": false
+    },
+    "ERRED_PAGE": {
+      "description": "Kosongkam",
+      "required": false
+    },
+    "CANCELLED_MESG": {
+      "description": "text untuk /cancel",
+      "required": false
+    },
+    "IN_VALID_CODE_PVDED": {
+      "description": "kosongkan",
+      "required": false
+    },
+    "IN_VALID_PHNO_PVDED": {
+      "description": "kosongkan",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "heroku-20"
+}
